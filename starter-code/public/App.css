@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:#1e2434;
+    color: white;
+    text-align: center;
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navImg1{
+    width: 90px;
+}
+
+.navImg2{
+    width: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 2rem;
+}
+
+button{
+    width: 150px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    font-size: 1.5rem;
+}
+
