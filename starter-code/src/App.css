@@ -1,0 +1,46 @@
+body{
+  background-color: #1E2434;
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.navBar{
+  display: grid;
+  grid-template-columns: auto auto;
+  height:10%;
+  width: 100%;
+  margin-top:1%;
+}
+
+.navBar-item1{
+width: 50%;
+margin-left: 5%;
+}
+.navBar-item2{
+  width: 50%;
+  margin-left: 95%;
+}
+.main-container{
+  margin:10% 25%;
+  text-align: center;
+}
+.main-container h1{
+  font-size: 70px;
+
+}
+.main-container h3{
+  font-size: 30px;
+  margin: 15% 0%;
+}
+.main-container button{
+  padding: 3% 5%;
+  border-radius: 5%;
+  font-weight:bold;
+  font-size: 17px;
+}
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.container-item{
+  text-align: center;
+}
