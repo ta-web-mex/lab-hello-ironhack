@@ -1,0 +1,63 @@
+.App{
+  background: #1E2534;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  color: #FFF;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+header {
+  width: 90vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4em;
+}
+
+header p{
+  font-size: 1.5em;
+  font-weight: 900;
+}
+
+header button {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid white;
+  font-weight: 700;
+}
+
+main{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20vw;
+}
+
+main div img {
+  width: 100px;
+}
