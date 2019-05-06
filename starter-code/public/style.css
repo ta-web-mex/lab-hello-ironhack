@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-display: swap;
+}
+
+body {
+  background-color: #242a37;
+  background-image: url('images/react-logo.svg');
+}
