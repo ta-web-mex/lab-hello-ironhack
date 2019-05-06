@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+body{
+  background: url("/images/react-logo.svg") #1e2534;
+}
+nav{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 0 1rem;
+}
+#main{
+  color:white;
+  width: 1000px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  text-align: center; 
+}
+h1{
+  font-size: 5rem;
+  margin-bottom: 30px;
+}
+h3{
+  font-size: 2rem;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+h4{
+  font-size: 1em;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+button{
+  background: white;
+  padding: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+aside{
+  width: 100%;
+  display: flex;
+  padding-bottom: 8rem;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+@media (max-width: 999px) {
+  #main{
+    width: 100%;
+  }
+}
