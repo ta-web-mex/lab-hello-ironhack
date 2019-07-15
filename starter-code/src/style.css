@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #1e2535;
+  color: white;
+}
+
+.Nav{
+margin-top: -20px;
+height: 20vh;
+width: 98vw;
+display: flex;
+justify-content: space-between;
+}
+.Main{
+  height: 40vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Main h4{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Main button{
+  margin-top: 12vh;
+  background-color :white;
+  color: #1e2535;
+  width: 10vw;
+  height: 60px;
+  border-radius: 3px;
+}
+
+.Footer{
+margin-top: 10vh;
+display: flex;
+align-items: center;
+flex-direction: row;
+justify-content:space-around
+  
+}
+.Footer div{
+
+  display: flex;
+ 
+  justify-items: center;
+  flex-direction: column;
+}
+
+.Footer p{
+  text-align: center
+}
+.Footer img{
+  margin-left: 60px;
+  width: 150px;
+  height:150px;
+}
