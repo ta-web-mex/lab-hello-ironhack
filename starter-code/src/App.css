@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+  box-sizing: border-box;
+  color: #fff;
+  font-family: 'Open sans', sans-serif;
+  font-size: 18px;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #282c34;
+  background-image: url('/images/react-logo.svg');
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  height: 70px;
+}
+
+nav > div {
+  height: 40px;
+  width: 40px;
+}
+
+nav > div > img {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.main > h2 {
+  font-size: 68px;
+}
+
+.main > p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main > button {
+  background-color: #fff;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: #282c34;
+  font-weight: bold;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.items > figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
