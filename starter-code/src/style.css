@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+  color: white;
+}
+nav {
+  display: flex;
+}
+nav img:first-child {
+  padding-left: 3vw;
+}
+nav img:last-child {
+  padding-left: 87vw;
+}
+.front {
+  text-align: center;
+  padding-top: 15vh;
+}
+
+.final-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+}
