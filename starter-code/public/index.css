@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	/* background-image: url('../public/images/react-logo.svg'); */
+	color: #ffffff;
+	background-color: #1e2534;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	height: 70px;
+	justify-content: space-between;
+}
+
+.logo {
+	position: relative;
+	top: 10px;
+	left: 22px;
+}
+
+.menu {
+	position: relative;
+	top: 18px;
+	right: 22px;
+}
+
+header {
+	width: 100%;
+	height: 555px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.header-title {
+	position: relative;
+	font-weight: 900;
+	font-size: 2rem;
+	top: 45px;
+}
+
+.header-button {
+	position: relative;
+}
+
+header div button {
+	width: 100px;
+	height: 50px;
+}
+
+footer {
+	width: 100%;
+	height: 350px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-self: center;
+}
+
+.card-container {
+	width: 250px;
+	height: 225px;
+	text-align: center;
+	font-size: 15px;
+}
