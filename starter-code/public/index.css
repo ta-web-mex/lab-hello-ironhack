@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(19, 31, 53);
+    background-image: url("./images/react-logo.svg");
+    color: white;
+}
+
+.navbar{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    font-size: xx-large;
+    padding: 30px;
+    margin: 100px;
+    text-align: center;
+}
+
+.content button{
+    margin: 40px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+footer{
+    padding: 0 0 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div{
+    text-align: center;
+}
