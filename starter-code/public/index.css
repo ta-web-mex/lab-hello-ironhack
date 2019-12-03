@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+}
+
+#container {
+    background-image: url("/images/react-logo.svg");
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    padding-top: 2vh;
+}
+
+#header {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10vh;
+}
+
+h3 {
+    font-size: 1.8rem;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+button {
+    color: black;
+    padding: 1vh;
+    border: 2px solid white;
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+ #card {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    width: 25px;
+    height: 300px;
+    padding: 30px;
+    font-size: 15px;
+    text-align: center;
+} 
+
+#img1{
+    width: 50%;
+    height: 40%;
+    align-self: center;
+}
+
+#img2{
+    width: 50%;
+    height: 40%;
+    align-self: center;
+}
+
+#img3{
+    width: 50%;
+    height: 40%;
+    align-self: center;
+}
+
+#img4{
+    width: 50%;
+    height: 40%;
+    align-self: center;
+}
