@@ -1,0 +1,58 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container {
+    background-image: url("/images/react-logo.svg");
+    background-color: #1d2434;
+
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 4vw;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 10vh;
+}
+
+h3 {
+    font-size: 1.8rem;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+button {
+    color: black;
+    padding: 20px;
+    border: 2px solid white
+}
+
+#image-container {
+    display: flex;
+    margin-top: 22.6vh;
+    border-radius: 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px 10px 150px 10px;
+    text-align: center;
+}
