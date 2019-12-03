@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.bodyApp{
+  background-color:#1E2535 ;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  background-image: url(/images/react-logo.svg);
+
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.logo{
+  align-self:flex-start;
+}
+
+.burger{
+  margin-left: 93%;
+  
+}
+
+.containcards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+section{
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 80px;
+}
+
+button{
+  width: 10%;
+  height: 10%;
+  margin-top: 5%;
+  font-size: large;
+}
+
+
