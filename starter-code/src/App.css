@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1D2534;
+    background-image: url(/images/react-logo.svg);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.content h1 {
+    font-size: 4.5rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: auto;
+}
+
+#btn-move{
+    justify-content: center;
+}
+#btn {
+    padding: 15px;
+    width: 100px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 140px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer div {
+    text-align: center;
+    display: block ;
+    padding: 2px 16px;
+}
