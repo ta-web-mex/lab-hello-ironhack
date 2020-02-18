@@ -7,20 +7,23 @@ class App extends Component {
     return (
         <div className="App">
             <nav className ="Navbar">
-                <a>  <img src="/images/ironhack-logo.svg"  /> </a>
-                <a>  <img src="/images/menu-top.svg"  /> </a>
+                <a className="pad-img ">  <img src="/images/ironhack-logo.svg"  /> </a>
+                <a className="pad-img2 ">  <img src="/images/menu-top.svg"  /> </a>
                
             </nav>
-
+<div className="Top-e">
             <div className="Encabezado">
                 <h1>Say hello to ReactJS</h1>
                 <p>You will learn a Frontend Framework from scratch, </p>
                 <p>to become a Ninja Developer</p>
+                <br></br>
+
                 <button>Awesome</button>
             </div>
 
-
-            <section >
+</div>
+            <section className="Container">
+              <div>
                 <div className="Cards">
                     <Card 
                         description ="React makes it painless to create interactive UIs" 
@@ -39,10 +42,9 @@ class App extends Component {
                         image="/images/icon4.png"
                     />
 
-                    <Button/>
 
                 </div>
-
+</div>
             </section>
         </div>
     )
