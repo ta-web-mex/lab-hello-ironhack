@@ -1,32 +1,38 @@
-import React, { Component } from 'react'
-import MiniCard from './components/MiniCard'
-import NavBar from './components/NavBar'
+import React,{Component} from 'react'
+import Card from './components/Card'
+import Nav  from './components/Nav'
+import Sec from './components/Sec'
+
 
 class App extends Component{
-	render(){
-		return (
-			<div className="generalContainer">
-				<NavBar imglogo="/images/ironhack-logo.svg"
-						imgHambur="/images/menu-top.svg"/>
+    render(){
+        return (
+            <div className='generalContainer'>
+                <Nav img1 ="/images/ironhack-logo.svg" img2="/images/menu-top.svg"/>
+                <Sec/>
+                <div className='allCards'>
 
-				<div className="allCards">
-					<MiniCard  img="/images/icon1.png"
-							   description ="React makes it painless to create interactive UIs"
-					 />
-					 <MiniCard  img="/images/icon2.png"
-							   description ="Build encapsulated component that manage their state."
-					 />
-					 <MiniCard  img="/images/icon3.png"
-							   description ="A set of immutable values are passed to cpmponents"
-					 />
-					<MiniCard  img="/images/icon4.png"
-							   description ="Statically-typed designed to run on modern browsers."
-					 />
-				</div>
+                     <Card 
+                        description="React makes it painless to create interactive UIs"
+                        image="/images/icon1.png"
+                    />
+                    <Card 
+                        description="Build encapsulated component that manage their state."
+                        image="/images/icon2.png"
+                    />
+                    <Card 
+                        description="A set of immutable values are passed to cpmponents"
+                        image="/images/icon3.png"
+                    />
+                    <Card 
+                        description="Statically-typed designed to run on modern browsers."
+                        image="/images/icon4.png"
+                    />
+                </div>
 
-			</div>
-			)
-	}
+            </div>
+        )
+    }
 }
 
 export default App

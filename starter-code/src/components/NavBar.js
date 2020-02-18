@@ -1,7 +1,4 @@
 import React from 'react'
-
-
-
 const NavBar = ({imglogo,imgHambur})=>{
 	return (
 		<nav>
@@ -14,4 +11,4 @@ const NavBar = ({imglogo,imgHambur})=>{
 		)
 }
 
-export default NavBar
+export default Navbar
