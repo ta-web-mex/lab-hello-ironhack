@@ -1,0 +1,55 @@
+body{
+    background-color: #3e4145;
+    background-image: url('/images/react-logo.svg');
+    color:white;
+}
+
+nav>ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+img{
+    cursor: pointer;
+}
+
+h1,h3{
+    text-align: center;
+}
+a{
+    text-align: center;
+    margin:0 auto;
+    display: block;
+    width: 15vh;
+    height: 6vh; 
+    background-color: goldenrod;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.imgCard{
+    width: 25%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 20%;
+
+
+}
+p{
+    width: 80%;
+}
+.allCards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+
