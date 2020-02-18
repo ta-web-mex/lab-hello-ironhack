@@ -16,7 +16,10 @@ class App extends Component {
                 <h1>Say hello to ReactJS</h1>
                 <p>You will learn a Frontend Framework from scratch, </p>
                 <p>to become a Ninja Developer</p>
+                <button>Awesome</button>
             </div>
+
+
             <section >
                 <div className="Cards">
                     <Card 
@@ -35,6 +38,9 @@ class App extends Component {
                         description ="Statically-typed designed to run on modern browsers" 
                         image="/images/icon4.png"
                     />
+
+                    <Button/>
+
                 </div>
 
             </section>
