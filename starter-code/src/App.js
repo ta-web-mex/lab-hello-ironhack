@@ -9,6 +9,7 @@ class App extends Component {
             <div className="app">
                 <Nav/>
                 <Header/>
+                <div className="como-quieras">
                 <Card
                 image="/images/icon1.png"
                 description="React makes it painless to create interactive UIs"
@@ -22,9 +23,11 @@ class App extends Component {
                 description="A set of immutable values are passed to the components"
                 />
                 <Card
-                image="../public/images/icon4.png"
+                image="/images/icon4.png"
                 description="Statically-typed designed to run on modern browsers"
                 />
+                </div>
+      
 
             
 

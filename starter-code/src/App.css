@@ -33,3 +33,24 @@
     font-size: 4vh;
 
 }
+
+.Header a{
+    color:#1e2534 ;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 10px;
+}
+
+.como-quieras{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10vh;
+    
+}
+
+p{
+    color: white;
+    
+}
