@@ -6,7 +6,7 @@
   }
 
   body{
-    background: slategray;
+    background: #192536;
     background-image: url(/images/react-logo.svg);
   }
 
@@ -52,5 +52,14 @@
   }
 
 button{
-  
+    color:black;
+    background: #fff;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    height: 50px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
 }
