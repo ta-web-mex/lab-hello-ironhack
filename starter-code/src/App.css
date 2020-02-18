@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+    background-color: #1e2534;
+    background-image: url("/images/react-logo.svg");
+}
+
+.Nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header{
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    
+}
+
+.Header h1{
+    padding: 100px;
+    font-size: 8vh;
+}
+
+.Header h2{
+    padding: 50px;
+    font-size: 4vh;
+
+}
+
+.Header a{
+    color:#1e2534 ;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: 10px;
+}
+
+.como-quieras{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 10vh;
+    
+}
+
+p{
+    color: white;
+    
+}
