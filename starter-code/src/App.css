@@ -1,0 +1,44 @@
+body {
+    padding: 0px;
+    margin:0px;
+    background-color: rgb(30,35,50);
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 40px;
+   
+}
+
+button {
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+p {
+    font-size: smaller;
+}
