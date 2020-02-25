@@ -9,11 +9,12 @@ import './App.css'
 class App extends Component {
     render() {
         return (
-            <>
+            <div>
             <Navbar/>
             <Centro/>
             <Elements/>
-            </>
+            </div>
+            
         )
     }
 }
