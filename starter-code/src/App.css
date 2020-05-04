@@ -1,0 +1,57 @@
+body {
+ color: white;
+}
+.NavBar {
+ display: flex;
+ justify-content: space-between;
+}
+.NavBar img {
+ margin: 10px 30px;
+}
+
+.App {
+ margin: 1rem;
+ padding: 1rem;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: #1c2332;
+}
+
+.cards {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+}
+
+.imgCard {
+ text-align: center;
+ width: 250px;
+}
+.imgCard img {
+ width: auto;
+ height: 150px;
+}
+
+.mainContainer {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+}
+
+.mainContainer h1 {
+ font-size: 3rem;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+.mainContainer h5 {
+ font-size: 1rem;
+}
+.mainContainer a {
+ background-color: white;
+ color: #1c2332;
+ padding: 20px 30px;
+ margin-top: 3rem;
+ margin-bottom: 5rem;
+ border-radius: 5px;
+}
