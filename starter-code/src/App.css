@@ -1,0 +1,54 @@
+body {
+  z-index: 1;
+  background-color: black;
+  background-image: url('/images/react-logo.svg');
+}
+
+.section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.section h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section h3 {
+  width: 45%;
+  margin: 4% 0;
+  text-align: center;
+}
+
+.section a {
+  color: black;
+  padding: 1% 2%;
+  background-color: white;
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.feature div:first-child {
+  display: flex;
+  justify-content: center;
+}
+
+.feature p {
+  color: white;
+  text-align: center;
+}
