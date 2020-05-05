@@ -1,0 +1,59 @@
+body {
+    color: black;
+   }
+   .NavBar {
+    display: flex;
+    justify-content: space-between;
+   }
+   .NavBar img {
+    margin: 10px 30px;
+   }
+   
+   .App {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3b4f70;
+   }
+   
+   .cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   
+   .imgCard {
+    text-align: center;
+    width: 250px;
+   }
+   .imgCard img {
+    width: auto;
+    height: 150px;
+   }
+   
+   .mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   }
+   
+   .mainContainer h1 {
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+   }
+   
+   .mainContainer h5 {
+    font-size: 1rem;
+   }
+   .mainContainer a {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #1c2332;
+    padding: 25px 35px;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    border-radius: 8px;
+   }
+   
